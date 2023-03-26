@@ -1,12 +1,18 @@
 lockfileVersion: 5.4
 
 specifiers:
+  chrome-types: ^0.1.180
   prettier: ^2.8.7
 
 devDependencies:
+  chrome-types: 0.1.180
   prettier: 2.8.7
 
 packages:
+
+  /chrome-types/0.1.180:
+    resolution: {integrity: sha512-4L8C5D+N0ZBrN5LfY0bKY8vPZflP/p4nmpSmW9OSHjYtNN9hw1ZlcsluZBpdnttRJgt5NymYWOSGUB09cCUMIw==}
+    dev: true
 
   /prettier/2.8.7:
     resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}

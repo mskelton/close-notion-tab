@@ -2,6 +2,7 @@
   "name": "close-notion-tab",
   "type": "module",
   "devDependencies": {
+    "chrome-types": "^0.1.180",
     "prettier": "^2.8.7"
   }
 }
