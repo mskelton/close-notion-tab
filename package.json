@@ -1,0 +1,7 @@
+{
+  "name": "close-notion-tab",
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^2.8.7"
+  }
+}

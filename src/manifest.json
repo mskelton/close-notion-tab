@@ -1,0 +1,31 @@
+{
+  "name": "Close Notion Tab",
+  "description": "Automatically close Notion share link tabs after the desktop app opens.",
+  "homepage_url": "https://github.com/mskelton/",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "/images/icon.png",
+    "32": "/images/icon@2x.png",
+    "48": "/images/icon@3x.png",
+    "128": "/images/icon@8x.png"
+  },
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "web_accessible_resources": [
+    {
+      "matches": ["https://*.notion.so/native/*"],
+      "resources": ["js/content.js"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.notion.so/native/*"],
+      "js": ["js/content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
