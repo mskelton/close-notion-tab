@@ -6,7 +6,7 @@ tabs after they opened in the desktop app.
 ## Installation
 
 Install the extension in the
-[Chrome web store](https://chrome.google.com/webstore/detail/close-notion-tab/).
+[Chrome web store](https://chrome.google.com/webstore/detail/close-notion-tab/gnmlnelgpkmikakfkeejommjoknnlpjj).
 
 ## Thanks
 
