@@ -11,20 +11,21 @@
     "128": "/images/icon@8x.png"
   },
   "permissions": ["activeTab"],
+  "host_permissions": ["https://www.notion.so/*"],
   "background": {
-    "service_worker": "service-worker.js",
+    "service_worker": "js/service-worker.js",
     "type": "module"
   },
   "web_accessible_resources": [
     {
-      "matches": ["https://*.notion.so/native/*"],
+      "matches": ["https://www.notion.so/*"],
       "resources": ["js/content.js"]
     }
   ],
   "content_scripts": [
     {
-      "matches": ["https://*.notion.so/native/*"],
-      "js": ["js/content.js"],
+      "matches": ["https://www.notion.so/*"],
+      "js": ["js/content-script.js"],
       "run_at": "document_end"
     }
   ]
